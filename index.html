@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyUnimib - Il Social Network Accademico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>My<span class="accent">Unimib</span></h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#social" class="nav-link">Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servizi" class="nav-link">Servizi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Chi Siamo</a>
+                    </li>
+                </ul>
+                <div class="nav-auth">
+                    <button class="btn-login">Accedi</button>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Il Social Network <span class="accent">Accademico</span><br>
+                    dell'Università Milano-Bicocca
+                </h1>
+                <p class="hero-description">
+                    MyUnimib è la piattaforma dedicata alla comunità Bicocca. Connettiti con studenti, 
+                    docenti e staff, condividi conoscenze e accedi a tutti i servizi universitari in un unico spazio digitale.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Inizia Ora</button>
+                    <button class="btn-secondary">Scopri di Più</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="card-header">
+                        <div class="user-avatar"></div>
+                        <div class="user-info">
+                            <h4>Marco Rossi</h4>
+                            <p>Studente Informatica</p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p>Qualcuno ha gli appunti della lezione di Algoritmi di oggi? 📚</p>
+                        <div class="card-actions">
+                            <span><i class="fas fa-heart"></i> 12</span>
+                            <span><i class="fas fa-comment"></i> 5</span>
+                            <span><i class="fas fa-share"></i> 2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="social" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Funzionalità Social</h2>
+                <p>Connettiti e collabora con la comunità accademica Bicocca</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Forum e Discussioni</h3>
+                    <p>Partecipa a discussioni accademiche, poni domande e condividi conoscenze con colleghi e docenti.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Gruppi Tematici</h3>
+                    <p>Unisciti a gruppi di corso, dipartimento o interesse per rimanere aggiornato sui temi che ti interessano.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-message"></i>
+                    </div>
+                    <h3>Messaggistica Privata</h3>
+                    <p>Comunica direttamente con altri membri della comunità in modo sicuro e privato.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-poll"></i>
+                    </div>
+                    <h3>Sondaggi e Q&A</h3>
+                    <p>Crea sondaggi rapidi e sezioni domanda-risposta per coinvolgere la community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servizi" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servizi Accademici</h2>
+                <p>Tutti i servizi universitari integrati in un'unica piattaforma</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Orario Lezioni</h3>
+                    <p>Consulta il tuo orario personalizzato e ricevi notifiche per cambiamenti e aggiornamenti.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Stage e Tirocini</h3>
+                    <p>Trova opportunità di stage, gestisci le candidature e monitora il tuo percorso professionale.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Pagamento Tasse</h3>
+                    <p>Gestisci i pagamenti universitari in modo semplice e sicuro direttamente dalla piattaforma.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Servizi Studenti</h3>
+                    <p>Accedi a tutti i servizi della segreteria studenti e monitora il tuo percorso accademico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Perché MyUnimib?</h2>
+                    <p>
+                        MyUnimib nasce dall'osservazione di un bisogno concreto: creare un luogo virtuale unificato 
+                        dove la comunità accademica di Milano-Bicocca possa interagire in modo mirato e continuo.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Sicuro e Privato</h4>
+                                <p>Accesso riservato solo ai membri dell'Università con credenziali istituzionali.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-university"></i>
+                            <div>
+                                <h4>Ambiente Accademico</h4>
+                                <p>Contenuti di qualità focalizzati sulla vita universitaria e la crescita accademica.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-handshake"></i>
+                            <div>
+                                <h4>Comunità Unita</h4>
+                                <p>Connette studenti, docenti e staff in un ambiente collaborativo e rispettoso.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>10,000+</h3>
+                        <p>Studenti Attivi</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>500+</h3>
+                        <p>Docenti e Staff</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>250+</h3>
+                        <p>Gruppi Tematici</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Unisciti alla Comunità MyUnimib</h2>
+                <p>Inizia a connetterti con la tua comunità accademica oggi stesso</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Accesso Social</button>
+                    <button class="btn-outline">Accesso Accademico</button>
+                </div>
+                <p class="cta-note">
+                    <i class="fas fa-info-circle"></i>
+                    Puoi scegliere di utilizzare solo i servizi accademici senza partecipare alla componente social
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MyUnimib</h3>
+                    <p>Il social network accademico dell'Università di Milano-Bicocca</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Servizi</h4>
+                    <ul>
+                        <li><a href="#">Social Network</a></li>
+                        <li><a href="#">Servizi Accademici</a></li>
+                        <li><a href="#">Forum e Gruppi</a></li>
+                        <li><a href="#">Messaggistica</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Supporto</h4>
+                    <ul>
+                        <li><a href="#">Centro Aiuto</a></li>
+                        <li><a href="#">Regolamento</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Università</h4>
+                    <ul>
+                        <li><a href="#">Sito Ufficiale</a></li>
+                        <li><a href="#">Dipartimenti</a></li>
+                        <li><a href="#">Biblioteca</a></li>
+                        <li><a href="#">Campus</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MyUnimib - Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2>Accedi a MyUnimib</h2>
+                <p>Utilizza le tue credenziali universitarie</p>
+            </div>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">Email Universitaria</label>
+                    <input type="email" id="email" placeholder="nome.cognome@campus.unimib.it" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="La tua password" required>
+                </div>
+                <div class="form-options">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        Ricordami
+                    </label>
+                    <a href="#" class="forgot-password">Password dimenticata?</a>
+                </div>
+                <button type="submit" class="btn-primary full-width">Accedi</button>
+                <div class="divider">
+                    <span>oppure</span>
+                </div>
+                <button type="button" class="btn-primary full-width">Accesso Solo Servizi Accademici</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
